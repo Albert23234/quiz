@@ -12,3 +12,21 @@ $(document).ready(function() {
     });
 
 });
+function holiday(holiday){
+   if (holiday === "christmas"){
+       return 8;
+    }else if (holiday === "halloween"){ return 9;}
+    else if (holiday === "thanksgiving"){ return 10;}
+    else if (holiday === "new years"){ return 11;}
+    else if (holiday === "memorial day"){ return 12;}
+    else {return 14;}
+}
+function personality(personality){
+
+    if(personality === "boring"){return 1;}
+    else if (personality === "Adventurous"){ return 9;}
+    else if (personality === "Independent"){ return 10;}
+    else if (personality === "Optimistic"){ return 11;}
+    else if (personality === "Trusting"){ return 12;}
+    else {return 14;}
+}
